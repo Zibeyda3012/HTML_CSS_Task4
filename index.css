@@ -1,289 +1,342 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    padding: 20px 100px;
-    font-family: Inter;
+body {
+  padding: 20px 100px;
+  font-family: Inter;
 }
-
 
 /*Navbar section start*/
 
-nav{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.navPart1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 250px;
+.navPart1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 250px;
 }
 
-.navLogo{
-    width: 200px;
+.navLogo {
+  width: 200px;
 }
 
-.navLinks{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-.navLinks a{
-    color: black;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 15px;
+.navLinks a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
 }
 
-.navBtns{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+.navBtns {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .usdBtn {
-    background-color: transparent;
-    font-size: 15px;
-    font-family: Inter;
-    border: none;
-    font-weight: 600;
+  background-color: transparent;
+  font-size: 15px;
+  font-family: Inter;
+  border: none;
+  font-weight: 600;
 }
 
-.signInBtn{
-   background-color: black;
-   color: white;
-   font-size: 15px;
-   font-family: Inter;
-   border: 1px solid black;
-   font-weight: 600;
-   border-radius: 20px;
-   padding: 10px;
+.signInBtn {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: Inter;
+  border: 1px solid black;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 10px;
 }
 
-nav h1{
-
-    font-size: 46.3px;
-    letter-spacing: 1.08px;
-    font-weight: 900;
-    padding: 50px 0px;
+nav h1 {
+  font-size: 46.3px;
+  letter-spacing: 1.08px;
+  font-weight: 900;
+  padding: 50px 0px;
 }
 
-.navPart2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 22px;
-    padding-bottom: 30px;
+.navPart2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 22px;
+  padding-bottom: 30px;
 }
 
-.navLinkItem{
-    display: flex;
-    align-items: center;
-    gap: 3px;
+.navLinkItem {
+  display: flex;
+  align-items: center;
+  gap: 3px;
 }
 
-.navLinkItem a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 16.59px;
+.navLinkItem a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16.59px;
 }
 
-.navLinkItem:hover{
-    text-decoration: underline;
-    text-underline-offset: 10px;
+.navLinkItem:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
 }
 
-.searchBar{
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    border: 1px solid lightgray;
-    box-shadow: 0 3px 5px 1px lightgray;
-    border-radius: 100px;
-    padding: 5px 10px;
-    gap: 20px;
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid lightgray;
+  box-shadow: 0 3px 5px 1px lightgray;
+  border-radius: 100px;
+  padding: 5px 10px;
+  gap: 20px;
 }
 
-.searchBar input{
-    width: 600px;
-    height: 40px;
-    border: 1px solid transparent;
-    padding: 0px 10px;
+.searchBar input {
+  width: 600px;
+  height: 40px;
+  border: 1px solid transparent;
+  padding: 0px 10px;
 }
 
-nav input::placeholder{
-    font-size: 15px;
+nav input::placeholder {
+  font-size: 15px;
 }
 
-
-.searchIconBtn{
-    transform: translateX(10px);
-    background-color: transparent;
-    border: none;
+.searchIconBtn {
+  transform: translateX(10px);
+  background-color: transparent;
+  border: none;
 }
 
-.searchIconBtn i{
-    font-size: 20px;
+.searchIconBtn i {
+  font-size: 20px;
 }
 
-
-.searchBtn{
-    background-color: #34E0A1;
-    border:1px solid #34E0A1;
-    border-radius: 24px;
-    width: 100px;
-    height: 48px;
-    font-weight: bold;
-    font-size: 15px;
-
+.searchBtn {
+  background-color: #34e0a1;
+  border: 1px solid #34e0a1;
+  border-radius: 24px;
+  width: 100px;
+  height: 48px;
+  font-weight: bold;
+  font-size: 15px;
 }
 
-.searchBtn:hover{
-    opacity: 80%;
+.searchBtn:hover {
+  opacity: 80%;
 }
-
 
 /*Navbar section end*/
 
-
 /*Restaurants section start*/
 
-.restaurantSection, .travelCreatorsSection, .tourBakuSection{
-    display: flex;
-    flex-direction: column;
-    padding: 100px 90px 50px 90px;
+.restaurantSection,
+.travelCreatorsSection,
+.tourBakuSection {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 90px 50px 90px;
 }
 
-.restaurantSection h3, .travelCreatorsSection h3, .tourBakuSection h3{
-    font-size: 24px;
-    padding-bottom: 10px;
+.restaurantSection h3,
+.travelCreatorsSection h3,
+.tourBakuSection h3 {
+  font-size: 24px;
+  padding-bottom: 10px;
 }
 
-.restaurantSection p, .travelCreatorsSection p, .tourBakuSection p{
-    font-size: 16px;
-    color: #333333;
-    padding-bottom: 20px;
+.restaurantSection p,
+.travelCreatorsSection p,
+.tourBakuSection p {
+  font-size: 16px;
+  color: #333333;
+  padding-bottom: 20px;
 }
 
-.restaurantImages{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.restaurantImages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.restaurantImages img{
-    width: 272px;
-    height: 272px;
+.restaurantImages img {
+  width: 272px;
+  height: 272px;
 }
 
-.restaurantImages img:hover{
-    opacity: 90%;
+.restaurantImages img:hover,
+.travelImages img:hover {
+  opacity: 90%;
 }
 
-.lastImagePart{
-    display: flex;
+.lastImagePart {
+  display: flex;
 }
 
-.lastPict{
-    position: relative;
+.lastPict {
+  position: relative;
 }
 
-.nextBtn{
-    position: absolute;
-    align-self: center;
-    transform: translateX(625%);
-    background-color: transparent;
-    border: none;
-
+.nextBtn {
+  position: absolute;
+  align-self: center;
+  transform: translateX(625%);
+  background-color: transparent;
+  border: none;
 }
-
 
 /*Restaurants section end*/
 
-
 /*Travel creators section start*/
 
-.travelImages{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 8px;
+.travelImages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
 }
 
-
-.travelImages img{
-    width: 377.33px;
-    height: 239.48px;
-    border-radius: 8px;
-
+.travelImages img {
+  width: 377.33px;
+  height: 239.48px;
+  border-radius: 8px;
 }
 
-
-.travelText{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
+.travelText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
 }
 
-.travelText a{
-    text-decoration: none;
-    color: black;
+.travelText a {
+  text-decoration: none;
+  color: black;
 }
 
-.travelText a:hover{
-    text-decoration: underline;
-    color: rgb(81, 81, 81);
+.travelText a:hover {
+  text-decoration: underline;
+  color: rgb(81, 81, 81);
 }
 
-.travelText object{
-    padding-top: 20px;
+.travelText object {
+  padding-top: 20px;
 }
 
-
-.contentCreator{
-    font-weight: 700;
-    font-size: 16px;
+.contentCreator {
+  font-weight: 700;
+  font-size: 16px;
 }
 
-.travelDescription{
-    font-weight: 700;
-    font-size: 18px;
+.travelDescription {
+  font-weight: 700;
+  font-size: 18px;
 }
 
-.itemCount{
-    font-size: 16px;
-    color:#333333;
+.itemCount {
+  font-size: 16px;
+  color: #333333;
 }
 
-.lastImg{
-    display: flex;
-    position: relative;
+.lastImg {
+  display: flex;
+  position: relative;
 }
 
-.lastImg button{
-    position: absolute;
-    background-color: transparent;
-    border: none;
-    left: 355px;
-    top: 202px;
+.lastImg button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  left: 355px;
+  top: 202px;
 }
 
 /*Travel creators section end*/
 
-
 /*Tour Baku section start*/
 
+.tourCards {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.tourCard {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.tourImage {
+  display: flex;
+  position: relative;
+}
+
+.tourImage object {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+
+.tourImage img {
+  width:  280px;
+  height: 280px;
+  border-radius: 8px;
+}
+
+.tourCard h4{
+    padding-top: 8px;
+}
+
+.tourCard h4 a{
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+.greenDots span{
+    font-size: 12px;
+    padding-left: 9px;
+}
+
+.greenDots{
+    display: flex;
+    gap: 1px;
+    align-items: center;
+    padding-top: 5px;
+}
 
 
+.tourCard p{
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 5px;
+}
 
+.tourNextBtn{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: -30px;
+    bottom: 170px;
+}
