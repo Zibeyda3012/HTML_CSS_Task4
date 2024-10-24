@@ -340,3 +340,52 @@ nav input::placeholder {
     right: -30px;
     bottom: 170px;
 }
+
+
+/*Tour Baku section end*/
+
+/*Footer start*/
+
+footer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 250px 50px 80px;
+}
+
+footer h2{
+  font-size: 28px;
+}
+
+footer p{
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 600;
+  text-underline-offset: 13px;
+}
+
+.footerLinks{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.footerLinks ul{
+  list-style: none;
+
+}
+
+.footerLinks ul li{
+  padding-bottom: 8px;
+}
+
+.footerLinks a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.footerLinks a:hover{
+  text-decoration: underline;
+  color: #333333;
+}

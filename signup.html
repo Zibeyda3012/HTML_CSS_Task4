@@ -4,9 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="signup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  />
     <title>Sign Up</title>
   </head>
   <body>
    
+    <div class="card">
+      <div class="icons">
+        <i class="fa-solid fa-chevron-left"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+
+      <div class="formPart">
+        <object data="./assets/Icons/tripadvisor-icon.svg" type=""></object>
+
+        <h2>Join to unlock the best <br> of Tripadvisor</h2>
+ 
+        <form action="">
+ 
+         <div class="formFullnamePart">
+           <div class="formItem">
+             <label for="firstname">First Name</label>
+             <input required name="firstname" placeholder="First Name" type="text">
+           </div>
+   
+           <div class="formItem">
+             <label for="lastname">Last Name</label>
+             <input required name="lastname" placeholder="Last Name" type="text">
+           </div>
+         </div>
+ 
+ 
+         <div class="formItem">
+           <label for="email">Email address</label>
+           <input required name="email" placeholder="Email" type="email">
+         </div>
+ 
+         <div class="formItem">
+           <label for="password">Create a password</label>
+           <input required type="password" name="password" placeholder="Password" id="">
+         </div>
+ 
+ 
+        </form>
+ 
+        <button class="joinBtn">Join</button>
+      </div>
+
+     
+    </div>
   </body>
 </html>
